@@ -92,7 +92,7 @@ def get_feedback(
     seed: int = SEED,
 ):
     
-    result = openai.chat.completions.create(
+    result = oai.chat.completions.create(
         model=model,
         messages=messages,
         temperature=temperature,
